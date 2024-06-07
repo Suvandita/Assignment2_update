@@ -13,7 +13,7 @@ body{
     background-color: black;
     padding:1%;
 }
-#mywebsite{
+.nav-link-main{
     font-size: 150%;        /*1.5 times of orginal font*/
     color:white;
 }
