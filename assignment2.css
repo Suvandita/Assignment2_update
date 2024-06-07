@@ -1,0 +1,79 @@
+body{
+    margin:0; 
+    padding:0;              /*certain browsers have default margin and padding setting*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: rgb(221, 221, 221);
+    
+}
+/*Navigation bar*/
+.nav-bar{
+    display: flex;          /*default direction is row*/
+    align-items: center;    /*for vertically center alignment*/
+    gap:1%;
+    background-color: black;
+    padding:1%;
+}
+#mywebsite{
+    font-size: 150%;        /*1.5 times of orginal font*/
+    color:white;
+}
+.nav-link{
+    color:rgb(150, 147, 147);
+}
+.nav-link:hover{
+    color:white;
+    cursor:pointer;
+}
+
+/*title*/
+.heading{
+    font-size:200%;        /*double of the originial/parent font*/
+    margin-left:5%;
+}
+.cards{
+    display:flex;
+    overflow-x:scroll;
+}
+.cards .card{
+    min-width: 300px;      /*prevents the element to shrink*/
+    height:400px;          /*using pixels as the image size is fixed for all devices*/
+    
+    border: 3px solid black;
+
+    margin-right:5%;
+    margin-left: 5%;
+    
+}
+#card1{
+    background-image:url(Images/card1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#card2{
+    background-image:url(Images/card2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#card3{
+    background-image:url(Images/card3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#card4{
+    background-image:url(Images/card4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#card5{
+    background-image:url(Images/card5.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.imgtext{
+    color:white;
+    position:relative;
+    top:80%;
+    text-align: center;
+
+}
